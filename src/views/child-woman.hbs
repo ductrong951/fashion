@@ -1,0 +1,289 @@
+ <div class="list-category">
+        <div class="category-list">
+            <p class="list">Sản phẩm mới</p>
+            <p class="list">Thời trang hằng ngày</p>
+            <p class="list">Đồ mặc nhà</p>
+            <p class="list">Thời trang thiết yếu</p>
+            <p class="list">Sản phẩm giá tốt</p>
+            <p class="list">Giảm giá</p>
+            <div class="table-list">
+                <div class="daily-list">
+                    <ul class="list-column">
+                        <li class="list-row">Áo phông</li>
+                        <li class="list-row">Áo sơ mi</li>
+                        <li class="list-row">Áo len</li>
+                        <li class="list-row">Áo nỉ</li>
+                        <li class="list-row">Váy liền</li>
+                    </ul>
+                    <ul class="list-column">
+                        <li class="list-row">Chân váy</li>
+                        <li class="list-row">Quần jean</li>
+                        <li class="list-row">Quần shorts</li>
+                        <li class="list-row">Quần dài</li>
+                        <li class="list-row">Quần nỉ</li>
+                        </ul>
+                    <ul class="list-column">
+                        <li class="list-row">Quần kaki</li>
+                        <li class="list-row">Quần jogger</li>
+                        <li class="list-row">Đồ bộ</li>
+                        <li class="list-row">Áo khoác ngắn</li>
+                        <li class="list-row">Áo khoác gió</li>
+                        </ul>
+                    <ul class="list-column">
+                        <li class="list-row">Áo khoác chần bông</li>
+                        <li class="list-row">Áo khoác dạ</li>
+                        <li class="list-row">Chân váy</li>
+                        <li class="list-row">Chống nắng</li>
+                    </ul>
+                </div>
+                <img src="../image/girl.png" class="female-img" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="women">
+        <div class="return-index">
+            <a class="return" href="/index">Trang Chủ</a>
+            <p>Bé gái</p>
+        </div>
+        <div class="women-index">
+            <img src="../image/banner_name_tablet1647593286.png" alt="" class="women-index-img">
+        </div>
+    
+        <h3>Danh Mục Sản Phẩm</h3>
+        <div class="slider-category category">
+            <a href="">
+                <img src="../image/simicategory_filename_tablet1629484851.png" alt="" class="list-category-img">
+                Áo phông
+            </a>
+            <a href="">
+                <img src="../image/simicategory_filename_tablet1639497640.png" alt="" class="list-category-img">
+                Áo polo
+            </a>
+            <a href="">
+                <img src="../image/simicategory_filename_tablet1647482411.png" alt="" class="list-category-img">
+                Bộ mặc nhà
+            </a>
+            <a href="">
+                <img src="../image/simicategory_filename_tablet1639538355.png" alt="" class="list-category-img">
+                Váy liền
+            </a>
+            <a href="">
+                <img src="../image/simicategory_filename_tablet1629486181.png" alt="" class="list-category-img">
+                Quần jeans
+            </a>
+            <a href="">
+                <img src="../image/simicategory_filename_tablet1639534134.png" alt="" class="list-category-img">
+                Áo sơ mi
+            </a>
+            <a href="">
+                <img src="../image/simicategory_filename_tablet1639534238.png" alt="" class="list-category-img">
+                Quần short
+            </a>
+             <a href="">
+                <img src="../image/simicategory_filename_tablet1639534329.png" alt="" class="list-category-img">
+                Chân váy
+            </a>
+        </div>
+
+        <img src="../image/list_image_tablet1650528663.png" class="women-img" alt="">
+
+        <div class="t-shirt">
+            <h3>Quần shorts bé gái</h3>
+            <div class="t-shirt-product">
+                <div class="t-shirt-slider">
+                    <div id="myCarousel" class="carousel slide1" data-ride="carousel" data-interval="2500">
+                        <!-- Indicators -->
+                        <ol style="display:none;" class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                    
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <img src="../image/list_image_tablet_second1653881780.png" alt="" class="home-item-img">
+                          </div>
+                         <div class="item">
+                            <img src="../image/list_image_tablet1653881780.png" alt="" class="home-item-img">
+                          </div>
+                          <div class="item">
+                            <img src="../image/list_image_tablet_third1653881780.png" alt="" class="home-item-img">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="slider-product responsive">
+                {{#each_when product "select" "13"}}
+                    <div class="product-unisex">
+                        <img style="width: 33,33%; height: 466px; border-radius: 24px;" src="{{this.image}}" alt="" class="{{this.name}}" >
+                        <a style="width: 100%; display: flex; outline: none" href="/product/{{this.slug}}">
+                            <h4>{{this.name}}</h4> 
+                        </a>
+                        <span style="text-decoration: none; color:#515C63; padding: 12px 8px;" class="price">{{this.price}}</span>
+                        <div class="addtocart">
+                            <button class="addtocartbtn">
+                                Thêm vào giỏ hàng
+                                <i class="fal fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                {{/each_when}}
+            </div>
+            </div>
+        </div>
+        <div class="sweater-banner">
+            <img src="../image/list_image_tablet1647057897.png" alt="" class="sweater-banner-img">
+        </div>
+        <div class="home-style">
+            <h3>Tất bé gái</h3>
+            <div class="home-style-product">
+                <div class="home-style-slider">
+                    <div id="myCarousel" class="carousel slide1" data-ride="carousel" data-interval="2500">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                        </ol>
+                    
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <img src="../image/tat/list_image_tablet1639534963.png" alt="" class="home-item-img">
+                          </div>             
+                        </div>
+                      </div>
+                </div>
+                     <div class="slider-product responsive">
+                {{#each_when product "select" "14"}}
+                    <div class="product-unisex">
+                        <img style="width: 33,33%; height: 466px; border-radius: 24px;" src="{{this.image}}" alt="" class="{{this.name}}" >
+                        <a style="width: 100%; display: flex; outline: none" href="/product/{{this.slug}}">
+                            <h4>{{this.name}}</h4> 
+                        </a>
+                        <span style="text-decoration: none; color:#515C63; padding: 12px 8px;" class="price">{{this.price}}</span>
+                        <div class="addtocart">
+                            <button class="addtocartbtn">
+                                Thêm vào giỏ hàng
+                                <i class="fal fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+                {{/each_when}}
+            </div>
+            </div>
+            <div class="skirt">
+                <img src="https://media.canifa.com/Simiconnector/list_image_tablet1639548038.png" alt="" class="skirt-banner">
+            </div>
+        <div class="new-product">
+            <div class="menu-category">
+                <h3>HÀNG MỚI</h3>
+            <ul>
+                    <li class="list-category-product">SẢN PHẨM MỚI
+                        <div class="product-container">
+                            <div class="container-1">
+                                <a class="product-item-new" href="">
+                                    <img class="product-item-new-img" src="https://canifa.com/img/486/733/resize/2/t/2ta22s017-sk010-110-1-u.jpg" alt="">
+                                    <div class="information-product-item">
+                                        <div class="info-product-name">
+                                           Áo ba lỗ bé trai
+                                            <div class="price-product-info">
+                                                99.000 đ
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product-item-new" href="">
+                                    <img class="product-item-new-img" src="https://canifa.com/img/486/733/resize/2/t/2ts22s023-sb128-2-thumb.jpg" alt="">
+                                    <div class="information-product-item">
+                                        <div class="info-product-name">
+                                            Áo phông bé trai
+                                            <div class="price-product-info">
+                                                149.000 đ
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product-item-new" href="">
+                                    <img class="product-item-new-img" src="https://canifa.com/img/486/733/resize/2/t/2ts22s022-so185-1.jpg" alt="">
+                                    <div class="information-product-item">
+                                        <div class="info-product-name">
+                                            Áo phông bé trai
+                                            <div class="price-product-info">
+                                                149.000 đ
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product-item-new" href="">
+                                    <img class="product-item-new-img" src="https://canifa.com/img/486/733/resize/2/t/2ts22s021-sa534-2-thumb.jpg" alt="">
+                                    <div class="information-product-item">
+                                        <div class="info-product-name">
+                                            Áo phông bé trai
+                                            <div class="price-product-info">
+                                                149.000 đ
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="container-2">
+                                <a class="product-item-new" href="">
+                                    <img class="product-item-new-img" src="https://canifa.com/img/486/733/resize/2/t/2tp22s004-so185-3-thumb.jpg" alt="">
+                                    <div class="information-product-item">
+                                        <div class="info-product-name">
+                                            Áo polo bé trai
+                                            <div class="price-product-info">
+                                                199.000 đ
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product-item-new" href="">
+                                    <img class="product-item-new-img" src="https://canifa.com/img/486/733/resize/3/t/3tl22s003-sk010-110-1-u.jpg" alt="">
+                                    <div class="information-product-item">
+                                        <div class="info-product-name">
+                                            Áo phông unisex trẻ em
+                                            <div class="price-product-info">
+                                                149.000 đ
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product-item-new" href="">
+                                    <img class="product-item-new-img" src="https://canifa.com/img/486/733/resize/2/b/2bj22s001-sj602-2-thumb.jpg" alt="">
+                                    <div class="information-product-item">
+                                        <div class="info-product-name">
+                                            Quần jeans bé trai
+                                            <div class="price-product-info">
+                                                299.000 đ
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="product-item-new" href="">
+                                    <img class="product-item-new-img" src="https://canifa.com/img/486/733/resize/2/l/2ls22s022-sb128-110-1-ghep.jpg" alt="">
+                                    <div class="information-product-item">
+                                        <div class="info-product-name">
+                                            Bộ quần áo mặc nhà bé trai
+                                            <div class="price-product-info">
+                                                199.000 đ
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-category-product">ÁO PHÔNG</li>
+                    <li class="list-category-product">BỘ MẶC NHÀ</li>              
+                    <li class="list-category-product">TẤT</li>
+                </ul>              
+            </div>
+            <div class="new-product-list">
+            </div>
+            <div class="t-shirt-product-list">
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,25 @@
+{
+  "name": "nodefashion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fox-fashion"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "boostrap": "^2.0.0",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "handlebars-helpers": "^0.9.8",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.4.5",
+    "mongoose-slug-generator": "^1.0.4"
+  }
+}

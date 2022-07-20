@@ -1,0 +1,93 @@
+:root{
+    --white-color: #fff;
+    --text-color: #6c757b;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#bootstrap-overrides html{
+    font-size: 10px;
+    font-family: Montserrat !important;
+}
+
+#bootstrap-overrides a{
+    text-decoration: none;
+    padding: 0;
+    font-size: 1.6em;
+    color: var(--text-color);
+    font-family: Open Sans;
+    font-weight: 700;
+    text-align: none;
+    outline: none;
+}
+
+h2{
+    font-size: 1.4em;
+    font-family: Open Sans;
+    color:#333F48;
+    font-weight: 700;
+}
+
+.opened{
+    display: flex;
+    
+}
+
+.slide{
+    width: 100%;
+    height: 602px;
+    position: absolute;
+}
+
+h3{
+    font-size: 1.9em !important;  
+    font-style: bold !important;
+    font-family: Montserrat !important; 
+    font-weight: 800 !important; 
+    color:#333F48 !important;
+    margin: 0 !important;
+    padding: 24px 0 12px 0 !important;
+}
+
+h4{
+    padding: 12px 8px !important;
+    margin: 0 !important;
+    font-family: Montserrat !important; 
+    font-weight: 650 !important;
+    font-size: 1.4em !important;
+}
+
+h5{
+    font-size: 1.6em !important;
+    font-weight: bold !important;
+    font-family: Open Sans !important;
+    padding: 0 12px !important;
+}
+
+ul{
+    list-style: none;
+}
+
+.icon-bar{
+    font-size: 1.5em !important;
+}
+
+
+.social-media-icon{
+    width: 46px;
+    height: 46px;
+    margin: 0 8px;
+}
+
+.social-media-icon:first-child{
+    padding-left: 0;
+}

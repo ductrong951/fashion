@@ -1,0 +1,43 @@
+<style>
+    body{
+        padding: 96px 0 0 16px;
+    }
+</style>
+<form method="POST" action="/product/stored" >
+    <label>Select</label>
+        <select name="select" id="select">
+        <option value="1">Bộ sưu tập gia đình</option>
+        <option value="2">Áo khoác</option>
+        <option value="3">Thời trang tại nhà</option>
+        <option value="4">Áo sơ mi nữ</option>
+        <option value="5">Áo khoác gió</option>
+        <option value="6">Hàng mới</option>
+        <option value="7">Home textured -woman</option>
+        <option value="8">Áo chống nắng-man</option>
+        <option value="9">Tất bé gái</option>
+        <option value="10">Áo sơ mi - bé trai</option>
+        <option value="11">Áo khoác gió - bé trai</option>
+        <option value="12">Thời trang mặc nhà - Nam</option>
+        <option value="13">Chân váy bé gái</option>
+        <option value="14">Tất bé gái</option>
+    </select>
+    <div class="form-group">
+        <label for="name">Tên sản phẩm</label>
+        <input type="text" class="form-control" id="name" name="name">
+    </div>
+    <div class="form-group">
+        <label for="description">Mô tả</label>
+        <input type="text" class="form-control" id="description" name="description">
+    </div>
+    <div class="form-group">
+        <label for="price">Giá</label>
+        <input type="text" class="form-control" id="price" name="price">
+    </div>
+    <div class="form-group">
+        <label for="image">Hình ảnh</label>
+        <input type="text" class="form-control" id="image" name="image">
+    </div>
+
+    <button type="submit">Submit</button>
+
+</form>
